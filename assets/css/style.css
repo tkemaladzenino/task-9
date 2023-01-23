@@ -437,8 +437,6 @@ ul>li:nth-child(8) {
 }
 
 
-
-
 /*---------------------*/
 
 .title1-2 {
@@ -475,7 +473,7 @@ ul>li:nth-child(8) {
 }
 
 
-
+/* ---------------------- */
 
 
 .title2 {
@@ -484,25 +482,18 @@ ul>li:nth-child(8) {
 
     width: 830px;
     height: 40px;
+    display: flex;
 
     background: cyan;
 }
 
-.table-1 {
-    width: 830px;
-}
-
-
-
-.table-1 tr>td:nth-child(1) {
-
+.first {
+    width: 94px;
     height: 26px;
-
+    margin-right: 40px;
 }
 
-.table-1 tr>td:nth-child(1) span {
-
-
+.first span {
     font-family: DelaGothicOne;
     font-style: normal;
     font-weight: 400;
@@ -522,27 +513,17 @@ ul>li:nth-child(8) {
 }
 
 
-.table-1 tr>td:nth-child(1) button {
+.first button {
     width: 43px;
     height: 25px;
 
-
-    padding: 4px 8px;
-    gap: 10px;
-
-    background: #639B6D;
+    background-color: #639B6D;
     border-radius: 4px;
+    border: none;
 
     flex: none;
     order: 1;
     flex-grow: 0;
-
-
-
-    width: 27px;
-    height: 17px;
-
-    /* Text/Label */
 
     font-family: Montserrat;
     font-style: normal;
@@ -556,26 +537,187 @@ ul>li:nth-child(8) {
     color: #F6F5F4;
 }
 
-
-
-.table-1 tr>td:nth-child(2) {
-    width: 43px;
-    height: 25px;
+.second {
+    width: 99px;
+    height: 26px;
+    margin-right: 40px;
 }
 
-.table-1 tr>td:nth-child(2) button {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 4px 8px;
-    gap: 10px;
+.second span {
+    width: 44px;
+    height: 26px;
+
+    /* Headings/ Heading 4 */
+
+    font-family: DelaGothicOne;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 100%;
+
+    letter-spacing: -0.04em;
+
+    /* Primaty/Grey Dark */
+
+    color: #757575;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+.second button {
+
 
     width: 43px;
     height: 25px;
+
+    background: rgba(99, 155, 109, 0.3);
+    border-radius: 4px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    border: none;
+
+
+
+    /* Text/Label */
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 140%;
+    /* identical to box height, or 17px */
+
+    letter-spacing: -0.04em;
 
     /* Secondary/Green */
 
-    background: #639B6D;
+    color: #639B6D;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.third {
+    width: 116px;
+    height: 26px;
+    margin-right: 40px;
+}
+
+.third span {
+    width: 38px;
+    height: 26px;
+
+    /* Headings/ Heading 4 */
+
+    font-family: DelaGothicOne;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 100%;
+    /* identical to box height, or 26px */
+
+    letter-spacing: -0.04em;
+
+    /* Primaty/Grey Dark */
+
+    color: #757575;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+.third button {
+
+
+    width: 66px;
+    height: 25px;
+
+    background: rgba(196, 162, 76, 0.3);
+    border-radius: 4px;
+    border: none;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+
+    /* Text/Label */
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 140%;
+    /* identical to box height, or 17px */
+
+    letter-spacing: -0.04em;
+
+    /* Secondary/Yellow */
+
+    color: #C4A24C;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.fourth {
+    width: 122px;
+    height: 26px;
+    margin-right: 40px;
+}
+
+.fourth span {
+    width: 44px;
+    height: 26px;
+
+    /* Headings/ Heading 4 */
+
+    font-family: DelaGothicOne;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 100%;
+
+
+    letter-spacing: -0.04em;
+
+    /* Primaty/Grey Dark */
+
+    color: #757575;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.fourth button {
+    width: 66px;
+    height: 25px;
+    border: none;
+
+    background: rgba(196, 162, 76, 0.3);
     border-radius: 4px;
 
     /* Inside auto layout */
@@ -584,15 +726,164 @@ ul>li:nth-child(8) {
     order: 1;
     flex-grow: 0;
 
-    border: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 140%;
+    /* identical to box height, or 17px */
 
+    letter-spacing: -0.04em;
+
+    /* Secondary/Yellow */
+
+    color: #C4A24C;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 
 }
 
+.fifth {
+    width: 96px;
+    height: 26px;
+    margin-right: 40px;
+}
+
+.fifth span {
+    width: 39px;
+    height: 26px;
+
+    /* Headings/ Heading 4 */
+
+    font-family: DelaGothicOne;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 100%;
+    /* identical to box height, or 26px */
+
+    letter-spacing: -0.04em;
+
+    /* Primaty/Grey Dark */
+
+    color: #757575;
 
 
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.fifth button {
+    width: 45px;
+    height: 25px;
+
+    background: rgba(203, 91, 67, 0.3);
+    border-radius: 4px;
+    border: none;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
 
 
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 140%;
+    /* identical to box height, or 17px */
+
+    letter-spacing: -0.04em;
+
+    /* Secondary/Orange */
+
+    color: #CB5B43;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.sixth {
+    width: 103px;
+    height: 26px;
+}
+
+.sixth span {
+    width: 46px;
+    height: 26px;
+
+    /* Headings/ Heading 4 */
+
+    font-family: DelaGothicOne;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 100%;
+    /* identical to box height, or 26px */
+
+    letter-spacing: -0.04em;
+
+    /* Primaty/Grey Dark */
+
+    color: #757575;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.sixth button {
+
+    width: 45px;
+    height: 25px;
+
+    background: rgba(203, 91, 67, 0.3);
+    border-radius: 4px;
+    border: none;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 140%;
+    /* identical to box height, or 17px */
+
+    letter-spacing: -0.04em;
+
+    /* Secondary/Orange */
+
+    color: #CB5B43;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
 
 /*-----------------------------------------------------------------------------*/
 
