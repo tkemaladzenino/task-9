@@ -31,7 +31,7 @@ body {
 .header {
 
     height: 88px;
-    margin: 0 auto;
+    display: flex;
 
     align-items: center;
     border-bottom: 1.20466px solid #E0E0E0;
@@ -39,9 +39,8 @@ body {
 }
 
 .header-text {
+
     width: 1180px;
-    height: 40px;
-    padding-top: 24px;
 
     margin: 0 auto;
 
@@ -50,8 +49,9 @@ body {
 ul {
     width: 1180px;
     height: 40px;
-    background-color: #e4d7d7;
 
+
+    margin: 0 auto;
 
 }
 
@@ -69,7 +69,7 @@ ul>li:nth-child(1) {
     margin: 0 auto;
 
     width: 130px;
-    height: 21px;
+
 
     font-family: DelaGothicOne;
     font-style: normal;
@@ -95,7 +95,7 @@ ul>li:nth-child(2) {
     padding-right: 30px;
 
     width: 49px;
-    height: 22px;
+
 
     /* Text/Body 2 */
 
@@ -149,7 +149,7 @@ ul>li:nth-child(4) {
     padding-right: 30px;
 
     width: 70px;
-    height: 22px;
+
 
     /* Text/Body 2 */
 
@@ -171,7 +171,7 @@ ul>li:nth-child(4) {
 
 ul>li:nth-child(5) {
 
-    margin-right: 300.31px;
+    padding-right: 200px;
 
     width: 55px;
     height: 22px;
@@ -184,11 +184,8 @@ ul>li:nth-child(5) {
 
     display: inline-flex;
 
-
-    display: flex;
     align-items: center;
     gap: 5px;
-
 
 
     font-family: Montserrat;
@@ -218,7 +215,7 @@ ul>li:nth-child(6) {
     padding-right: 10px;
 
     width: 13px;
-    height: 22px;
+
 
     font-family: Montserrat;
     font-style: normal;
@@ -230,10 +227,6 @@ ul>li:nth-child(6) {
 
 
     color: #2B788B;
-
-
-
-
 
 
     padding: 9px 14px;
@@ -257,13 +250,7 @@ ul>li:nth-child(6) {
 
 ul>li:nth-child(7) {
 
-    padding-right: 30px;
-
-
     width: 34px;
-    height: 22px;
-
-
 
     font-family: Montserrat;
     font-style: normal;
@@ -301,22 +288,18 @@ ul>li:nth-child(8) {
 
     color: #000000;
 
-
     flex: none;
     order: 1;
     flex-grow: 0;
 }
 
-
-
-
-
+/*-----------------------------------------------------------*/
 
 .title1 {
 
     display: flex;
     margin: 0 auto;
-
+    align-items: center;
 
 
     width: 1180px;
@@ -331,47 +314,30 @@ ul>li:nth-child(8) {
 .title1-1 {
     display: flex;
 
-    width: 416px;
-    height: 32px;
     padding-top: 20px;
     gap: 21px;
 
-
-    margin-right: 340px;
     margin-left: 22px;
+
 
 }
 
 
 .simbol1-tb-div {
 
-    width: 200px;
+    width: 201.22px;
     height: 44px;
-    background-color: aquamarine;
-
 
     display: flex;
 
-    padding-right: 20px;
-
-    border-right: 1.21942px solid #E0E0E0;
-
 }
 
-.simbol1 {
-    Width: 28px;
-    Height: 23.88px;
-    background-color: darkkhaki;
-    float: right;
-}
+.simbol1 {}
 
 .textbook {
 
-    width: 140px;
-    height: 26px;
-    background-color: gold;
-
-    float: left;
+    padding-right: 20px;
+    border-right: 1.21942px solid #E0E0E0;
 
 
     font-family: DelaGothicOne;
@@ -404,16 +370,10 @@ ul>li:nth-child(8) {
 .book {
     width: 30px;
     height: 25px;
-
-
 }
 
 
 .dictionary {
-    width: 52px;
-    height: 26px;
-
-
 
     font-family: DelaGothicOne;
     font-style: normal;
@@ -424,12 +384,9 @@ ul>li:nth-child(8) {
 
     letter-spacing: -0.04em;
 
-    /* Primaty/Black */
 
     color: #000000;
 
-
-    /* Inside auto layout */
 
     flex: none;
     order: 1;
@@ -443,7 +400,7 @@ ul>li:nth-child(8) {
 
     width: 384px;
     height: 44px;
-    padding-top: 20px;
+    margin-left: auto;
 
     display: flex;
     gap: 10px;
@@ -451,8 +408,6 @@ ul>li:nth-child(8) {
 
 .Sprint {
 
-    width: 146px;
-    height: 44px;
     margin-left: 380px;
 
     margin: auto;
@@ -460,8 +415,7 @@ ul>li:nth-child(8) {
 }
 
 .Audio {
-    width: 178px;
-    height: 44px;
+
     margin: auto;
 }
 
@@ -474,42 +428,128 @@ ul>li:nth-child(8) {
 
 
 /* ---------------------- */
+.cont-title2 {
+    height: 80px;
+    align-items: center;
+    margin: 0 auto;
 
+
+}
 
 .title2 {
     margin: 0 auto;
-    margin-top: 40px;
+
+    align-items: center;
+    padding-top: 40px;
 
     width: 830px;
-    height: 40px;
+    height: 80px;
     display: flex;
+}
 
-    background: cyan;
+
+
+/*--------------------                  hovers          ----------------------*/
+
+.first:hover {
+    border-bottom: 2px solid #000000;
+}
+
+.second:hover {
+    border-bottom: 2px solid #000000;
+}
+
+.third:hover {
+    border-bottom: 2px solid #000000;
+}
+
+.fourth:hover {
+    border-bottom: 2px solid #000000;
+}
+
+.fifth:hover {
+    border-bottom: 2px solid #000000;
+}
+
+.sixth:hover {
+    border-bottom: 2px solid #000000;
+}
+
+
+
+
+/*----------  hover -------*/
+
+
+.title2 span:hover {
+    color: #000000;
+}
+
+.first button:hover {
+    background: #639B6D;
+    color: #F6F5F4;
+}
+
+.second button:hover {
+    background-color: #639B6D;
+    color: #F6F5F4;
+}
+
+.third button:hover {
+
+    background-color: #C4A24C;
+    color: rgba(243, 240, 234, 0.968);
+
+}
+
+.fourth button:hover {
+    background-color: #C4A24C;
+    color: rgba(243, 240, 234, 0.968);
+}
+
+.fifth button:hover {
+    background-color: #CB5B43;
+    color: hsla(40, 30%, 96%, 0.836);
+}
+
+.sixth button:hover {
+    background-color: #CB5B43;
+    color: hsla(40, 30%, 96%, 0.836);
+}
+
+
+.title2 a:hover {
+    color: white
+}
+
+.title2 a {
+    color: #5996A5;
 }
 
 .first {
-    width: 94px;
-    height: 26px;
+
+    align-items: center;
     margin-right: 40px;
+    padding-bottom: 14px;
+
 }
 
 .first span {
+
+
     font-family: DelaGothicOne;
     font-style: normal;
     font-weight: 400;
     font-size: 26px;
     line-height: 100%;
-    /* identical to box height, or 26px */
 
     letter-spacing: -0.04em;
 
-    /* Primaty/Black */
-
-    color: #000000;
 
     flex: none;
     order: 0;
     flex-grow: 0;
+    color: #757575;
 }
 
 
@@ -517,7 +557,8 @@ ul>li:nth-child(8) {
     width: 43px;
     height: 25px;
 
-    background-color: #639B6D;
+
+    background-color: rgba(99, 155, 109, 0.3);
     border-radius: 4px;
     border: none;
 
@@ -530,24 +571,21 @@ ul>li:nth-child(8) {
     font-weight: 600;
     font-size: 12px;
     line-height: 140%;
-
+    color: #639B6D;
 
     letter-spacing: -0.04em;
 
-    color: #F6F5F4;
+
+
 }
 
 .second {
-    width: 99px;
-    height: 26px;
+    align-items: center;
     margin-right: 40px;
+    padding-bottom: 14px;
 }
 
 .second span {
-    width: 44px;
-    height: 26px;
-
-    /* Headings/ Heading 4 */
 
     font-family: DelaGothicOne;
     font-style: normal;
@@ -576,16 +614,12 @@ ul>li:nth-child(8) {
     background: rgba(99, 155, 109, 0.3);
     border-radius: 4px;
 
-    /* Inside auto layout */
-
     flex: none;
     order: 1;
     flex-grow: 0;
     border: none;
 
 
-
-    /* Text/Label */
 
     font-family: Montserrat;
     font-style: normal;
@@ -596,8 +630,6 @@ ul>li:nth-child(8) {
 
     letter-spacing: -0.04em;
 
-    /* Secondary/Green */
-
     color: #639B6D;
 
     flex: none;
@@ -606,16 +638,12 @@ ul>li:nth-child(8) {
 }
 
 .third {
-    width: 116px;
-    height: 26px;
+    align-items: center;
     margin-right: 40px;
+    padding-bottom: 14px;
 }
 
 .third span {
-    width: 38px;
-    height: 26px;
-
-    /* Headings/ Heading 4 */
 
     font-family: DelaGothicOne;
     font-style: normal;
@@ -626,12 +654,7 @@ ul>li:nth-child(8) {
 
     letter-spacing: -0.04em;
 
-    /* Primaty/Grey Dark */
-
     color: #757575;
-
-
-    /* Inside auto layout */
 
     flex: none;
     order: 0;
@@ -656,9 +679,7 @@ ul>li:nth-child(8) {
     flex-grow: 0;
 
 
-    /* Text/Label */
-
-    font-family: 'Montserrat';
+    font-family: Montserrat;
     font-style: normal;
     font-weight: 600;
     font-size: 12px;
@@ -667,12 +688,8 @@ ul>li:nth-child(8) {
 
     letter-spacing: -0.04em;
 
-    /* Secondary/Yellow */
 
     color: #C4A24C;
-
-
-    /* Inside auto layout */
 
     flex: none;
     order: 0;
@@ -680,16 +697,12 @@ ul>li:nth-child(8) {
 }
 
 .fourth {
-    width: 122px;
-    height: 26px;
+    align-items: center;
     margin-right: 40px;
+    padding-bottom: 14px;
 }
 
 .fourth span {
-    width: 44px;
-    height: 26px;
-
-    /* Headings/ Heading 4 */
 
     font-family: DelaGothicOne;
     font-style: normal;
@@ -704,9 +717,6 @@ ul>li:nth-child(8) {
 
     color: #757575;
 
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -719,8 +729,6 @@ ul>li:nth-child(8) {
 
     background: rgba(196, 162, 76, 0.3);
     border-radius: 4px;
-
-    /* Inside auto layout */
 
     flex: none;
     order: 1;
@@ -739,9 +747,6 @@ ul>li:nth-child(8) {
 
     color: #C4A24C;
 
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -749,23 +754,19 @@ ul>li:nth-child(8) {
 }
 
 .fifth {
-    width: 96px;
-    height: 26px;
+    align-items: center;
     margin-right: 40px;
+    padding-bottom: 14px;
 }
 
 .fifth span {
-    width: 39px;
-    height: 26px;
-
-    /* Headings/ Heading 4 */
 
     font-family: DelaGothicOne;
     font-style: normal;
     font-weight: 400;
     font-size: 26px;
     line-height: 100%;
-    /* identical to box height, or 26px */
+
 
     letter-spacing: -0.04em;
 
@@ -773,8 +774,6 @@ ul>li:nth-child(8) {
 
     color: #757575;
 
-
-    /* Inside auto layout */
 
     flex: none;
     order: 0;
@@ -788,8 +787,6 @@ ul>li:nth-child(8) {
     background: rgba(203, 91, 67, 0.3);
     border-radius: 4px;
     border: none;
-
-    /* Inside auto layout */
 
     flex: none;
     order: 1;
@@ -810,23 +807,19 @@ ul>li:nth-child(8) {
     color: #CB5B43;
 
 
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     flex-grow: 0;
 }
 
 .sixth {
-    width: 103px;
-    height: 26px;
+    align-items: center;
+    margin-right: 40px;
+    padding-bottom: 14px;
 }
 
 .sixth span {
-    width: 46px;
-    height: 26px;
 
-    /* Headings/ Heading 4 */
 
     font-family: DelaGothicOne;
     font-style: normal;
@@ -837,12 +830,8 @@ ul>li:nth-child(8) {
 
     letter-spacing: -0.04em;
 
-    /* Primaty/Grey Dark */
-
     color: #757575;
 
-
-    /* Inside auto layout */
 
     flex: none;
     order: 0;
@@ -869,7 +858,6 @@ ul>li:nth-child(8) {
     font-weight: 600;
     font-size: 12px;
     line-height: 140%;
-    /* identical to box height, or 17px */
 
     letter-spacing: -0.04em;
 
@@ -877,8 +865,6 @@ ul>li:nth-child(8) {
 
     color: #CB5B43;
 
-
-    /* Inside auto layout */
 
     flex: none;
     order: 0;
@@ -888,7 +874,7 @@ ul>li:nth-child(8) {
 /*-----------------------------------------------------------------------------*/
 
 .group-1 {
-    width: 916px;
+    width: 926px;
     height: 336px;
 
     display: flex;
@@ -899,18 +885,20 @@ ul>li:nth-child(8) {
     padding-right: 33px;
     border-radius: 14px;
 
+
 }
 
 .img1 {
     width: 337px;
     height: 336px;
     margin-right: 40px;
-    border-radius: 14px;
+    border-radius: 14px 14px;
 }
 
 .text-section-1 {
     width: 556px;
     height: 336px;
+    padding-right: 33px;
 
 }
 
@@ -920,7 +908,7 @@ ul>li:nth-child(8) {
     display: flex;
 
     margin-top: 40px;
-    gap: 183px;
+    gap: 214px;
 }
 
 .remark-line-note {
@@ -1224,7 +1212,8 @@ ul>li:nth-child(8) {
 .group-2 {
     width: 926px;
     height: 336px;
-
+    padding-right: 33px;
+    display: flex;
     margin: 0 auto;
     margin-top: 40px;
     background-color: #FFFFFF;
@@ -1236,40 +1225,302 @@ ul>li:nth-child(8) {
     height: 336px;
 }
 
+/*-------text area-2--------------------*/
+
+.text-section-2 {
+    width: 556px;
+    height: 336px;
+    margin-left: 40px;
+    padding-right: 33px;
+}
+
+.line-2-1 {
+    width: 516px;
+    height: 40px;
+
+    display: flex;
+    margin-top: 40px;
+    gap: 218px;
+
+}
+
+.auful-line-terrible {
+    width: 271px;
+    height: 32px;
+    display: flex;
+    float: right;
+    gap: 12px;
+}
+
+.auful {
+    font-family: DelaGothicOne;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: -0.04em;
+    color: #000000;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.slanted-line-2 {
+    font-family: DelaGothicOne;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 100%;
+
+    letter-spacing: -0.04em;
+
+    color: #000000;
+
+    flex: none;
+    order: 1;
+}
+
+.terrible {
+    font-family: DelaGothicOne;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 100%;
+
+    letter-spacing: -0.04em;
+
+    color: #757575;
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+
+.music2 {
+    width: 40px;
+    height: 40px;
+}
+
+/*-------*/
+
+.line-2-2 {
+    width: 166px;
+    height: 28px;
+    gap: 22px;
+    display: flex;
+
+    padding-top: 20px;
+    margin-bottom: 44px;
+
+}
+
+.offer {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+
+    letter-spacing: 0.04em;
+
+    color: #000000;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
 
 /*------------------------------------ group-3 ----------------------------------*/
 
 .group-3 {
     width: 926px;
     height: 336px;
+    display: flex;
 
     margin: 0 auto;
     margin-top: 40px;
-    background-color: #FFFF;
+
+    background-color: #FFFFFF;
     border-radius: 14px;
+    padding-right: 33px;
+
 }
+
+
 
 .img3 {
     width: 337px;
     height: 336px;
     border-radius: 14px;
+    margin-right: 40px;
 }
+
 
 
 
 /*-------------------------------------------------------------------*/
+.section-circles {
+    height: 184px;
+    padding-top: 40px;
+    padding-bottom: 100px;
+
+}
 
 .circles {
+
     width: 864px;
     height: 44px;
+    display: flex;
     margin: 0 auto;
-    background-color: wheat;
-    margin-top: 40px;
+    justify-content: center;
+
+}
+
+.circle-errow {
+    width: 44px;
+    height: 44px;
+    margin-right: 24px;
+
+
+    /* Secondary/Cyan */
+
+    border: 3px solid #5996A5;
+    border-radius: 100px;
+
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
 
 
 
+.circles button:hover {
+    background-color: #2B788B;
+}
 
+
+.circle-1 {
+    width: 44px;
+    height: 44px;
+
+    margin-right: 24px;
+
+    /* Secondary/Cyan */
+
+    border: 3px solid #5996A5;
+    border-radius: 100px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.circle-2 {
+    width: 44px;
+    height: 44px;
+    margin-right: 24px;
+
+
+    border: 3px solid #5996A5;
+    border-radius: 100px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.circle-3 {
+    width: 44px;
+    height: 44px;
+
+    margin-right: 24px;
+
+    border: 3px solid #5996A5;
+    border-radius: 100px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+.wertili {
+
+    margin-right: 24px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    /* or 25px */
+
+    display: flex;
+    align-items: flex-end;
+
+    letter-spacing: 0.04em;
+    color: #757575;
+
+
+}
+
+.circle-27 {
+    width: 44px;
+    height: 44px;
+
+    margin-right: 24px;
+
+    border: 3px solid #5996A5;
+    border-radius: 100px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.circle-28 {
+    width: 44px;
+    height: 44px;
+
+    border: 3px solid #5996A5;
+    border-radius: 100px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.circle-29 {
+    width: 44px;
+    height: 44px;
+
+    margin-right: 24px;
+
+    border: 3px solid #5996A5;
+    border-radius: 100px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.c
 /*----------------------footer-------------------------------------------------------*/
 
 
@@ -1390,14 +1641,16 @@ tr>th:nth-child(8) {
 
 .footer2 {
     height: 86px;
-    width: 1180px;
-    margin-top: 0px;
+
+    margin: 0 auto;
     border-top: 1.20466px solid #E0E0E0;
 }
 
 .table-1 {
     width: 1180px;
     height: 86px;
+    margin: 0 auto;
+
 }
 
 .tr-1 {
@@ -1422,14 +1675,11 @@ tr>th:nth-child(8) {
     width: 25.1px;
     height: 17.57px;
     margin-left: 33.5px;
-    margin-right: 683px;
+    margin-right: 648px;
 
 }
 
-.last-d {
-    width: 249px;
-    height: 12px;
-}
+
 
 /*   ---------------------------------*/
 
@@ -1445,11 +1695,33 @@ tr>th:nth-child(8) {
 }
 
 .table-2>th:nth-child(3) {
-    width: 25.1px;
+
     height: 17.57px;
 
 }
 
 .table-2>th:nth-child(4) {
-    width: 249px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 100%;
+
+
+    color: #757575;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
 }
+
+.last-d {
+    display: flex;
+    width: 290px;
+    margin-right: 0px;
+
+}
+
+
+/*------------------------------*/
