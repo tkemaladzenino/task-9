@@ -358,7 +358,7 @@ ul>li:nth-child(8) {
 
 .simbol1-tb-div {
 
-    width: 201.22px;
+    width: 208.22px;
     height: 44px;
 
     display: flex;
@@ -370,6 +370,7 @@ ul>li:nth-child(8) {
 .textbook {
 
     padding-right: 20px;
+    padding-left: 12px;
     border-right: 1.21942px solid #E0E0E0;
 
 
@@ -378,7 +379,7 @@ ul>li:nth-child(8) {
     font-weight: 400;
     font-size: 26px;
     line-height: 100%;
-    /* identical to box height, or 26px */
+
 
     letter-spacing: -0.04em;
 
@@ -490,6 +491,7 @@ ul>li:nth-child(8) {
 
 .first:hover {
     border-bottom: 2px solid #000000;
+
 }
 
 .second:hover {
