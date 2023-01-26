@@ -1526,9 +1526,10 @@ ul>li:nth-child(8) {
 
 
 .footer {
-    width: 1180px;
+
     height: 160px;
     margin: 0 auto;
+    align-items: center;
 
     background: #F6F5F4;
 
@@ -1536,6 +1537,8 @@ ul>li:nth-child(8) {
 
 .footer-group {
     width: 1180px;
+    height: ;
+
 
 }
 
@@ -1543,6 +1546,7 @@ ul>li:nth-child(8) {
 
 .footer1 {
     height: 74px;
+
 
 }
 
@@ -1641,6 +1645,7 @@ tr>th:nth-child(8) {
 
 .footer2 {
     height: 86px;
+
 
     margin: 0 auto;
     border-top: 1.20466px solid #E0E0E0;
