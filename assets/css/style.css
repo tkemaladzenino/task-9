@@ -12,6 +12,7 @@
 ::after,
 ::before {
     box-sizing: border-box;
+
 }
 
 body {
@@ -400,7 +401,7 @@ ul>li:nth-child(8) {
 
 
 .simbol2-b-d-div {
-    width: 114px;
+
     height: 30px;
     display: flex;
     gap: 11px;
@@ -421,10 +422,10 @@ ul>li:nth-child(8) {
     font-weight: 400;
     font-size: 26px;
     line-height: 100%;
-    /* identical to box height, or 26px */
+
 
     letter-spacing: -0.04em;
-
+    padding-left: 12px;
 
     color: #757575;
 
@@ -490,111 +491,127 @@ ul>li:nth-child(8) {
 
 
 
-/*--------------------                  hovers          ----------------------*/
+
+/*----------  textbook   and dictionery hovers ----*/
+
+
+.simbol1:hover svg path,
+.simbol1:hover span {
+    fill: black;
+    color: #000000;
+}
+
+
+
+.book:hover svg path,
+.book:hover span {
+    fill: black;
+    color: #000000;
+}
+
+/*----------title2---------*/
+
+
+
+
+
 
 .first:hover {
     border-bottom: 2px solid #000000;
 
 }
 
+.first:hover span {
+    color: #000000;
+}
+
+.first:hover button {
+    background: #639B6D;
+    color: #F6F5F4;
+}
+
+
+
 .second:hover {
     border-bottom: 2px solid #000000;
 }
+
+.second:hover span {
+    color: #000000;
+}
+
+.second:hover button {
+    background-color: #639B6D;
+    color: #F6F5F4;
+}
+
+
 
 .third:hover {
     border-bottom: 2px solid #000000;
 }
 
+.third:hover span {
+    color: #000000;
+}
+
+.third:hover button {
+    background-color: #639B6D;
+    color: #F6F5F4;
+}
+
+
+
 .fourth:hover {
     border-bottom: 2px solid #000000;
 }
+
+.fourth:hover span {
+    color: #000000;
+}
+
+.fourth:hover button {
+    background-color: #639B6D;
+    color: #F6F5F4;
+}
+
+
+
 
 .fifth:hover {
     border-bottom: 2px solid #000000;
 }
 
-.sixth:hover {
-    border-bottom: 2px solid #000000;
-}
-
-
-
-
-/*----------  textbook   hover -------*/
-
-
-
-
-
-.simbol1 svg path:hover {
-    fill: black;
-}
-
-.textbook:hover {
-    color: #000000;
-
-}
-
-
-
-
-
-
-
-.book svg path:hover {
-    fill: black;
-}
-
-.dictionary:hover {
+.fifth:hover span {
     color: #000000;
 }
 
-
-.title2 span:hover {
-    color: #000000;
-}
-
-.first button:hover {
-    background: #639B6D;
-    color: #F6F5F4;
-}
-
-.second button:hover {
+.fifth:hover button {
     background-color: #639B6D;
     color: #F6F5F4;
 }
 
-.third button:hover {
 
-    background-color: #C4A24C;
-    color: rgba(243, 240, 234, 0.968);
 
+
+.sixth:hover {
+    border-bottom: 2px solid #000000;
 }
 
-.fourth button:hover {
-    background-color: #C4A24C;
-    color: rgba(243, 240, 234, 0.968);
+.sixth:hover span {
+    color: #000000;
 }
 
-.fifth button:hover {
-    background-color: #CB5B43;
-    color: hsla(40, 30%, 96%, 0.836);
-}
-
-.sixth button:hover {
-    background-color: #CB5B43;
-    color: hsla(40, 30%, 96%, 0.836);
+.sixth:hover button {
+    background-color: #639B6D;
+    color: #F6F5F4;
 }
 
 
-.title2 a:hover {
-    color: white
-}
 
-.title2 a {
-    color: #5996A5;
-}
 
+
+/*--------------*/
 .first {
 
     align-items: center;
@@ -812,7 +829,6 @@ ul>li:nth-child(8) {
 
     letter-spacing: -0.04em;
 
-    /* Secondary/Yellow */
 
     color: #C4A24C;
 
@@ -930,8 +946,6 @@ ul>li:nth-child(8) {
 
     letter-spacing: -0.04em;
 
-    /* Secondary/Orange */
-
     color: #CB5B43;
 
 
@@ -954,6 +968,7 @@ ul>li:nth-child(8) {
     background: #FFFFFF;
     padding-right: 33px;
     border-radius: 14px;
+    position: relative;
 
 
 }
@@ -962,15 +977,128 @@ ul>li:nth-child(8) {
     width: 337px;
     height: 336px;
     margin-right: 40px;
-
-
-
-
+    position: relative;
 }
 
 .image-1 {
     border-top-left-radius: 14px;
+
 }
+
+/*----------------*/
+.black-box {
+
+    width: 51px;
+    height: 98px;
+    display: flex;
+    position: absolute;
+    top: 40px;
+    right: 0;
+
+
+
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 8px;
+    gap: 8px;
+
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 8px 0px 0px 8px;
+}
+
+
+.black-box-content {
+    width: 35px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+.first-couple {
+    display: flex;
+    flex: row;
+    width: 35px;
+    height: 22px;
+    margin-top: 8px;
+    margin-bottom: 6px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1px;
+
+
+
+
+}
+
+.flag {
+
+    left: calc(50% - 11.2px/2 + 0px);
+    top: calc(50% - 16px/2);
+
+    background: #FFFFFF;
+
+}
+
+.zero {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+
+    color: #FFFFFF;
+}
+
+.second-couple {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 35px;
+    height: 22px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.star {
+
+    width: 16px;
+    height: 15.3px;
+    left: calc(50% - 16px/2);
+    top: calc(50% - 15.3px/2 + 0px);
+    background: #FFFFFF;
+}
+
+.third-couple {
+
+    width: 35px;
+    height: 22px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.elva {
+
+    width: 12.8px;
+    height: 16px;
+    left: calc(50% - 12.8px/2 + 0.4px);
+    top: calc(50% - 16px/2);
+
+    background: #FFFFFF;
+}
+
+
+/*     -------------------------*/
+
+
+
+
 
 .text-section-1 {
     width: 556px;
@@ -1010,10 +1138,27 @@ ul>li:nth-child(8) {
     color: #000000;
 }
 
-.remark-line-note .note:hover {
+.note:hover {
 
     color: #000000;
 }
+
+
+
+.auful:hover {
+    color: #000000;
+}
+
+.slanted-line-2:hover {
+    color: #000000;
+}
+
+.terrible:hover {
+    color: #000000;
+}
+
+
+
 
 
 
@@ -1208,9 +1353,6 @@ ul>li:nth-child(8) {
     flex-grow: 0;
 }
 
-/* line-5 */
-
-
 .add-remove-buttons {
 
     width: 406px;
@@ -1231,12 +1373,8 @@ ul>li:nth-child(8) {
     width: 156px;
     height: 40px;
 
-    /* Secondary/Green */
-
     background: #639B6D;
     border-radius: 100px;
-
-    /* Inside auto layout */
 
     flex: none;
     order: 0;
@@ -1320,6 +1458,7 @@ ul>li:nth-child(8) {
 .img2 {
     width: 337px;
     height: 336px;
+    position: relative
 }
 
 /*-------text area-2--------------------*/
@@ -1444,6 +1583,7 @@ ul>li:nth-child(8) {
     background-color: #FFFFFF;
     border-radius: 14px;
     padding-right: 33px;
+    position: relative;
 
 }
 
@@ -1454,6 +1594,7 @@ ul>li:nth-child(8) {
     height: 336px;
     border-radius: 14px;
     margin-right: 40px;
+    position: relative;
 }
 
 
