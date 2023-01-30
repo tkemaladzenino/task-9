@@ -182,8 +182,8 @@ ul>li:nth-child(5) {
     letter-spacing: -0.04em;
 
     color: #757575;
-
 }
+
 
 .dropdown {
 
@@ -1709,7 +1709,7 @@ ul>li:nth-child(8) {
     font-weight: 700;
     font-size: 16px;
     line-height: 100%;
-    /* identical to box height, or 16px */
+
 
     display: flex;
     align-items: center;
@@ -1719,8 +1719,6 @@ ul>li:nth-child(8) {
 
     color: #5996A5;
 
-
-    /* Inside auto layout */
 
     flex: none;
     order: 0;
